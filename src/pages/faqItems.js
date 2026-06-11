@@ -11,7 +11,12 @@ const faqItems = [
   {
     question: 'Is my data stored online?',
     answer:
-      'No. Android v1.0 stores app data locally on your device and does not use a backend server, analytics, ads, or intended network functionality.',
+      'No. Caffinity v1.0 stores app data locally on your device and does not use a backend server, analytics, ads, or online account system.',
+  },
+  {
+    question: 'Does Caffinity work offline?',
+    answer:
+    'Yes. Caffinity v1.0 is designed to work locally on your device without an online account or backend server.',
   },
   {
     question: 'What can I log?',
@@ -31,22 +36,22 @@ const faqItems = [
   {
     question: 'What do alertness states mean?',
     answer:
-      'Alertness states such as Rising, Peak, Mild, Minimal, Post-caffeine, and Not caffeinated are simple labels based on modeled caffeine level, timing, and tolerance.',
+      'Alertness states help show where your caffeine-driven alertness is in its cycle — building, near its strongest point, fading, or mostly worn off. They change over time based on your logged intake, active caffeine, and tolerance.',
   },
   {
     question: 'What does tolerance mean in Caffinity?',
     answer:
-      'Tolerance is a modeled estimate of adaptation from recent and longer-term caffeine intake. Higher tolerance can make stronger alertness states harder to reach.',
+      'Caffeine tolerance means the same amount of caffeine may feel less strong after repeated use. Caffinity models short-term and longer-term tolerance so your alertness estimates can reflect that change over time.',
   },
   {
     question: 'What are wear-off reminders?',
     answer:
-      'Wear-off reminders are optional local device notifications near the estimated caffeine-clear time. They are not sent to a server.',
+      'Wear-off reminders are optional local alerts that let you know when your caffeine is estimated to be mostly cleared. They stay on your device and are not sent through a server.',
   },
   {
     question: 'Why are the numbers estimates?',
     answer:
-      'Caffinity uses simplified absorption and half-life style estimates, including a 45-minute absorption period and 5-hour half-life decay after absorption. Real caffeine response varies by person.',
+      'Caffinity uses a detailed model based on your logged drinks, absorption timing, half-life decay, and tolerance. The numbers are still estimates because real caffeine response can vary from person to person. Future updates may add more personal factors to make the model even more tailored.',
   },
   {
     question: 'Is Caffinity medical advice?',
@@ -56,7 +61,7 @@ const faqItems = [
   {
     question: 'How do I delete my data?',
     answer:
-      'You can delete logs where supported, clear the app data from Android settings, or uninstall the app.',
+      'You can delete individual logs in the app, clear Caffinity’s app data in Android settings, or uninstall the app.',
   },
 ];
 

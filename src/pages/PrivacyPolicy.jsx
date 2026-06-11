@@ -9,8 +9,8 @@ export default function PrivacyPolicy() {
       <section>
         <h2>Overview</h2>
         <p>
-          Caffinity is a local-first caffeine tracking app. Android v1.0 works without an account,
-          login, ads, analytics, backend server, or intended internet/network functionality.
+          Caffinity is a local-first caffeine tracking app. Caffinity v1.0 works without an account, 
+          login, ads, analytics, backend server, or online account system.
         </p>
         <p>
           Caffinity does not sell user data and does not share user data with advertisers,
@@ -50,7 +50,7 @@ export default function PrivacyPolicy() {
       </section>
 
       <section>
-        <h2>Health Information</h2>
+        <h2>Modeled Estimates and Health Disclaimer</h2>
         <p>
           Caffeine level, alertness, tolerance, and wear-off values are modeled estimates for personal
           tracking and informational use. Caffinity does not measure caffeine in the body directly,

@@ -44,7 +44,7 @@ export default function Home() {
           </article>
           <article>
             <h3>Made for tracking</h3>
-            <p>Daily totals, calendar history, custom drinks, units, themes, and optional reminders are supported.</p>
+            <p>Daily totals, calendar history, custom drinks, units, themes, and optional reminders keep your caffeine routine clear.</p>
           </article>
         </div>
       </section>
