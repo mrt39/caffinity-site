@@ -1,0 +1,109 @@
+.status-circle-stage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  container-type: inline-size;
+}
+
+.status-circle-aura {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 97.22%;
+  height: 97.22%;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, rgba(107, 52, 16, 0.24) 0%, rgba(107, 52, 16, 0.11) 38%, rgba(107, 52, 16, 0) 72%);
+  filter: blur(12px);
+  opacity: 0.28;
+  transform: translate(-50%, -50%);
+}
+
+.status-circle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status-flame-layer {
+  position: absolute;
+  width: 96.94%;
+  height: 96.94%;
+  inset: 1.53%;
+  overflow: visible;
+}
+
+.status-circle-core {
+  position: relative;
+  width: 91.67%;
+  height: 91.67%;
+  border-radius: 50%;
+  background: #6b3410;
+  box-shadow:
+    0 28px 72px rgba(43, 25, 18, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.status-circle-core::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(circle at 30% 22%, rgba(255, 255, 255, 0.12), transparent 44%);
+  pointer-events: none;
+}
+
+.status-circle-copy {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+}
+
+.status-caffeine-amount {
+  margin-bottom: 0.17em;
+  font-size: clamp(2.7rem, 13cqw, 5.75rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.status-alertness-label {
+  max-width: 64%;
+  padding: 0 4%;
+  font-size: clamp(1.35rem, 6.4cqw, 2.88rem);
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: 0;
+}
+
+.status-tolerance-label {
+  margin-top: 0.97em;
+  color: #ff6f00;
+  font-size: clamp(0.95rem, 4.3cqw, 1.94rem);
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
+}
+
+.status-ring-layer {
+  position: absolute;
+  width: 91.67%;
+  height: 91.67%;
+  inset: 4.17%;
+  overflow: visible;
+  transform-origin: center;
+}
